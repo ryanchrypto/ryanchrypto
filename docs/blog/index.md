@@ -1,0 +1,3 @@
+# blog
+
+- [A Degenerate Regenerate](/blog/a-degenerate-regenerate) - coming soon...
