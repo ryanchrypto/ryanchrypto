@@ -9,7 +9,7 @@ impl Component for Home {
     type Properties = ();
 
     fn create(_: Self::Properties, _: ComponentLink<Self>) -> Self {
-        Home { }
+        Home {}
     }
 
     fn change(&mut self, _: Self::Properties) -> ShouldRender {
@@ -22,21 +22,19 @@ impl Component for Home {
 
     fn view(&self) -> Html {
         html! {
-            <div class="container">
-                <div id="home" class="banner">
-                    <div>
-                        <h1>
-                            { "ryan christoffersen" }
-                        </h1>
-                        <p>
-                            <i>
-                                { "what is the role of technology in regeneration?" }
-                            </i>
-                        </p>
-                        <p>
-                            { "researcher, developer, storyteller" }
-                        </p>
-                    </div>
+            <div class="banner">
+                <div>
+                    <h1>
+                        { "ryan christoffersen" }
+                    </h1>
+                    <p>
+                        <i>
+                            { "what is the role of technology in regeneration?" }
+                        </i>
+                    </p>
+                    <p>
+                        { "researcher, developer, storyteller" }
+                    </p>
                 </div>
             </div>
         }
